@@ -2,7 +2,6 @@ import torch
 import torchvision
 import torch.nn as nn
 from torch.autograd import Variable
-from to
 class HybridNetwork(nn.Module):
 
     def __init__(self,input_dim_rnn, hidden_dim_rnn, output_dim_rnn,input_dim_fc):
