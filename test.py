@@ -24,13 +24,6 @@ X_fc =  Variable(torch.rand((batch_size,input_dim_fc)))
 
 y  =   Variable(torch.randn((batch_size,1)))
 
-# torch_dataset = Data.TensorDataset(data_tensor= X , target_tensor=y)
-#
-# loader = Data.DataLoader(
-#     dataset=torch_dataset,      # torch TensorDataset format
-#     batch_size=BATCH_SIZE,      # mini batch size
-#     num_workers=2             # 多线程来读数据
-# )
 
 
 learning_rate = 0.1
